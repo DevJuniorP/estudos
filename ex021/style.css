@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* 
+    Tudo em HTML com ID, em CSS vai ser #
+    Não é obrigatório colocar a tag somente o # + nome do ID.
+    Tudo em HTML com CLASS, em CSS vai ser .
+*/
+body{
+    background-color: rgb(223, 243, 202);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(0, 117, 0);
+}
+#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+h2{
+    color: rgb(57, 110, 59);
+}
+.basico{
+    color: rgb(5, 255, 5);
+}
+.intermediario{
+    color: rgb(2, 137, 255);
+}
+.avancado{
+    color: rgb(255, 0, 0);
+}
+p{
+    text-align: justify;
+    text-indent: 1.5em;
+}
+.destaque{
+    background-color: #e4e47669;
+}

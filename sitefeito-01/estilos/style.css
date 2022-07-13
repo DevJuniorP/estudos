@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,900;1,400&display=swap');
+/*VARIÁVEIS*/
+/*==============================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --clr-1: #e4ded0;
+    --clr-2: #abccbd;
+    --clr-3: #7dbeb8;
+    --clr-4: #181619;
+    --clr-5: #e32f21;
+    --clr-6: white;
+
+    --font-poppins: 'Poppins', sans-serif;
+    --font-robot: 'Roboto', sans-serif;
+    --font-nunito: 'Nunito', sans-serif;;
+}
+/*ESTILOS GERAIS*/
+/*==============================*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--clr-6);
+    font-family: var(--font-nunito);
+}
+a, a:hover, a:link, a:visited{
+    text-decoration: none;
+}
+.divisor{
+    border: none;
+    width: 140px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: var(--clr-4);
+    margin: 30px auto;
+}
+.section__titulo{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 20px auto;
+}
+/*MENU*/
+/*==============================*/
+.menu-bg{
+    background-color: var(--clr-4);
+}
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu__lista{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;    
+}
+.menu__link{
+    padding: 10px;
+    margin: 5px;
+    flex-wrap: wrap;
+    color: white;
+}
+.menu__lista a:hover{
+    opacity: 0.5;
+    transition: 0.6s;
+}
+/*QUEM SOMOS*/
+/*==============================*/
+.somos{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.somos-c{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.somos__descricao{
+    padding: 0 5px;
+    flex: 6 1 160px;
+    font-family: var(--font-nunito);
+    line-height: 26px;
+}
+.somos__img{
+    flex: 1 1 350px;
+}
+/*PRODUTOS DESTAQUE*/
+/*==============================*/
+.produtos__destaque{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.produtos-c{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.produto{
+    margin: 0 10px;
+}
+.produto__titulo{
+    margin: 5px 0;
+    text-align: center;
+}
+.produto__descricao{
+    text-align: center;
+    font-size: 1.1rem;
+}
+.produtos__link{
+    border-radius: 10px;
+    border: 2px solid var(--clr-4);
+    margin: 5px 0;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-poppins);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--clr-4);
+}
+.produtos__link:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+}
+/*CONTATOS*/
+/*==============================*/
+.contato{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.contato-c{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+.contato__link{
+    color: black;
+}
+.contato__link:hover{
+    opacity: 0.3;
+    transition: 0.3s;
+}
+/*FOOTER*/
+footer{
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--clr-4);
+    color: white;
+}
+footer a{
+    color: var(--clr-1);
+}
+/*==============================*/
+
+
+

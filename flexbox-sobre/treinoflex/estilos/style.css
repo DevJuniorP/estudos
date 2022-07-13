@@ -1,0 +1,64 @@
+@charset "UTF08";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor1: #BFB7A8;
+    --cor2: #D9D0C5;
+    --cor3: #A6754B;
+    --cor4: #594431;
+    --cor5: #592202;
+
+    --roboto: 'Roboto', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+header{
+    background-color: var(--cor4);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    font-family: var(--poppins);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.429);
+    flex-wrap: wrap;
+}
+header a{
+    color: var(--cor2);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    opacity: 0.4;
+}
+header a:hover{
+    opacity: 1;
+    transition: 0.4s;
+    color: white;
+    font-size: 20px;
+}
+.menu{
+    display: flex;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.container{
+    height: 485px;
+    width: 1280px;
+    background-color: var(--cor5);
+}
+.conteudo{
+    font-family: var(--roboto);
+}
+.conteudo h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.nome{
+    color: var(--cor4);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com caixas box-level</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid darkgray; /*A ordem nessas ocasioes será: width, style (solid,dashed etc) e por fim o color */
+
+            padding: 10px 10px 10px 10px;
+            /*A ordem nessas ocasies será: top, right, bottom, left*/
+            
+            margin: 20px auto 40px auto;
+            
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: red;
+        }
+        a{
+            border-width: 5px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa Box-Level</h1>
+    <p>Parágrafos também são caixas box-leves <a href="#">Links são exemplos de inline-level</a></p>
+</body>
+</html>
